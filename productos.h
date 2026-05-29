@@ -25,9 +25,9 @@ struct Producto {
 // ======================================================
 // Se utiliza para ordenamientos y reportes
 // ======================================================
-Producto productosVector[100];
+extern Producto productosVector[100];
 
-int totalProductos = 0;
+extern int totalProductos;
 
 // ======================================================
 // pongo todo a minusculas
